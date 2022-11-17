@@ -2,7 +2,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-
+import vueJsx from '@vitejs/plugin-vue-jsx'
 import { splitVendorChunkPlugin } from 'vite'
 import viteCompression from 'vite-plugin-compression';
 
@@ -21,7 +21,7 @@ export default defineConfig({
       }
     }
   },
-  plugins: [vue(),vueJsx(), splitVendorChunkPlugin(), viteCompression(),],
+  plugins: [vue(), vueJsx(), splitVendorChunkPlugin(), viteCompression(),],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
