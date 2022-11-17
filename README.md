@@ -1,4 +1,4 @@
-# SalfiRishad_portfolio
+# Salfi_Rishad-Portfolio
 
 Portfolio website for photography showcasing made with VueJS.
 
