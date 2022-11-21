@@ -27,5 +27,5 @@ export default defineConfig({
       }
     }
   },
-  base: '/Salfi_Rishad-Portfolio',
+  base: '/Salfi_Rishad-Portfolio/',
 })
