@@ -1,6 +1,6 @@
 # Salfi_Rishad-Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Portfolio Website for photography showcase made with VueJS + tailwindCSS. [Visit](https://khanshifaul.github.io/Salfi_Rishad-Portfolio)
 
 ## Recommended IDE Setup
 
