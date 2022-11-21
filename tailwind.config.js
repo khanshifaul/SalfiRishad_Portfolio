@@ -13,12 +13,19 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
+    fontFamily: {
+      'RubikMicrobe': ['RubikMicrobe']
+    },
     extend: {
       colors: {
-        light: 'rgba(255, 255, 255, 1)',
-        darkgray: 'hsl(0, 0%, 20%)'
+        orange: 'rgb(255, 115, 29)',
+        beige: 'rgb(255, 247, 233)',
+        blue: 'rgb(95, 157, 247)',
+        navy: 'rgb(23, 70, 162)',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
