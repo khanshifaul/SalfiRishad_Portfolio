@@ -5,10 +5,10 @@ import bgimg from '@/assets/bg-img/bg-img-1.jpg';
 </script>
 
 <template>
-  <section class="h-screen text-white bg-local bg-cover bg-center bg-no-repeat"
+  <section class="h-screen text-white bg-local bg-cover bg-right md:bg-center bg-no-repeat px-3"
     :style="{ backgroundImage: `url(${bgimg})` }">
     <HelloNavigationVue />
-    <div class="container mx-auto text-left text-xl font-extrabold pt-20">
+    <div class="container mx-auto text-left text-xl font-extrabold pt-20 space-y-4">
       <span>Hi,</span>
       <h2> I'm <span class="text-3xl"> Salfi Bari Khan </span> </h2>
       <div class="text-2xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"> Proffesional
