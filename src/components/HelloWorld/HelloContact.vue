@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
     <section class="container mx-auto py-6 px-3">
-        <div class="text-2xl border-b-2 pb-2 font-RubikMicrobe mb-4">
+        <div class="text-3xl text-center border-b-2 pb-2 font-RubikMicrobe mb-4">
             Let's Work Together
         </div>
         <div class="grid grid-cols-1 gap-4 place-items-center">
