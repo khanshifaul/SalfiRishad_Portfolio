@@ -1,16 +1,35 @@
 <script setup lang="ts"></script>
 <template>
-    <section class="container mx-auto py-6">
-        <div class="text-2xl border-b-2 pb-2 font-RubikMicrobe mb-4">Let's Work Together</div>
+    <section class="container mx-auto py-6 px-3">
+        <div class="text-2xl border-b-2 pb-2 font-RubikMicrobe mb-4">
+            Let's Work Together
+        </div>
         <div class="grid grid-cols-1 gap-4 place-items-center">
-            <label class="w-96 block">
-                <span class="text-gray-700">Full name</span>
-                <input type="text" class="mt-1 block w-full" placeholder="">
-            </label>
-            <label class="w-96 block">
-                <span class="text-gray-700">Full name</span>
-                <input type="text" class="mt-1 block w-full" placeholder="">
-            </label>
+            <div class="relative z-0">
+                <input type="text" id="floating_standard"
+                    class="block py-2.5 px-0 w-80 md:w-96 text-base text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    placeholder=" " />
+                <label for="floating_standard"
+                    class="absolute text-base text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your
+                    Name</label>
+            </div>
+            <div class="relative z-0">
+                <input type="text" id="floating_standard"
+                    class="block py-2.5 px-0 w-80 md:w-96 text-base text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    placeholder=" " />
+                <label for="floating_standard"
+                    class="absolute text-base text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your
+                    Email</label>
+            </div>
+            <div class="relative z-0">
+                <textarea id="floating_standard"
+                    class="block py-2.5 px-0 w-80 md:w-96 min-h-full text-base text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                    placeholder=" " />
+                <label for="floating_standard"
+                    class="absolute text-base text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your
+                    Message</label>
+            </div>
+            <input type="button" value="SEND MESSAGE" class="bg-orange p-4 rounded-full font-semibold baseline" />
         </div>
     </section>
 </template>
