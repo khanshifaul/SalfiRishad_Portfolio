@@ -8,12 +8,13 @@ import { Icon } from '@iconify/vue'
         <div>
             <h1 class="font-bold font-RubikMicrobe">Salfi Rishad</h1>
         </div>
-        <nav class="md:flex space-x-6 hidden">
+        <nav class="md:space-x-6 hidden md:flex">
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/about">About</RouterLink>
             <RouterLink to="/gallery">Gallery</RouterLink>
+            <RouterLink to="/contact" class="p—3 px-6 pt—2 bg-orange bg-darkgray rounded-full baseline">
+                Contact</RouterLink>
         </nav>
-        <RouterLink to="/contact" class="hidden md:block p—3 px-6 pt—2 bg-orange bg-darkgray rounded-full baseline">Contact</RouterLink>
-        <Icon icon="codicon:three-bars" class="md:hidden text-2xl font-bold"/>
+        <Icon icon="codicon:three-bars" class="md:hidden text-2xl font-bold" />
     </Header>
 </template>
