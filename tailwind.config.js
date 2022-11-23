@@ -14,7 +14,12 @@ module.exports = {
       xl: '1440px',
     },
     fontFamily: {
-      'RubikMicrobe': ['RubikMicrobe']
+      'Acme': ['Acme'],
+      'Bacode': ['Bacode'],
+      'Broadway-bt': ['Broadway-bt'],
+      'Greenhouse-gas': ['Greenhouse-gas'],
+      'Quick-starter': ['Quick-starter'],
+      'RubikMicrobe': ['RubikMicrobe'],
     },
     extend: {
     },
