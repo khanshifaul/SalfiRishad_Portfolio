@@ -1,13 +1,12 @@
 <script setup lang="ts">
-import HelloNavigationVue from '@/components/HelloWorld/HelloNavigation.vue';
 import bgimg from '@/assets/bg-img/bg-img-1.jpg';
 import { Icon } from '@iconify/vue'
 </script>
 
 <template>
-  <section class="h-screen text-white bg-local bg-cover bg-right md:bg-center bg-no-repeat px-3"
+  <section class="h-screen text-white bg-local bg-cover bg-right md:bg-center bg-no-repeat p-6"
     :style="{ backgroundImage: `url(${bgimg})` }">
-    <HelloNavigationVue />
+
     <div class="container mx-auto text-left text-xl font-extrabold pt-48 space-y-6">
       <span>Hi,</span>
       <h2> I'm <span class="text-3xl"> Salfi Bari Khan </span> </h2>

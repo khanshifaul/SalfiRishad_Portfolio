@@ -17,12 +17,6 @@ module.exports = {
       'RubikMicrobe': ['RubikMicrobe']
     },
     extend: {
-      colors: {
-        orange: 'rgb(255, 115, 29)',
-        beige: 'rgb(255, 247, 233)',
-        blue: 'rgb(95, 157, 247)',
-        navy: 'rgb(23, 70, 162)',
-      }
     },
   },
   plugins: [

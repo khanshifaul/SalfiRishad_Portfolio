@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-    <section id="contact" class="container mx-auto py-6 px-3">
+    <section id="contact" class="container mx-auto p-6">
         <div class="text-3xl text-center border-b-2 pb-2 font-RubikMicrobe mb-4">
             Let's Work Together
         </div>
