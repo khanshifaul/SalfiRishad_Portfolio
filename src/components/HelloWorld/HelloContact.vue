@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 <template>
-    <section id="contact" class="p-6">
+    <section id="contact" class="p-6 bg-gradient-to-b from-green-100 to-white">
         <div class="container mx-auto">
             <div class="text-3xl text-center border-b-2 pb-2 font-Broadway-bt mb-4">
-                Let's Work Together
+                Let's Work
             </div>
             <div class="grid grid-cols-1 gap-4 place-items-center">
                 <div class="relative z-0">

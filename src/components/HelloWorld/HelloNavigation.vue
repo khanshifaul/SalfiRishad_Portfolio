@@ -14,7 +14,7 @@ function hideMobileNav() {
 <template>
     <Header class="fixed w-screen top-0 p-6">
         <div class="container mx-auto flex items-center justify-between text-lg text-white font-semibold">
-            <RouterLink class="font-bold font-RubikMicrobe" :to="{ name: 'home' }">Salfi Rishad</RouterLink>
+            <RouterLink class="font-Quick-starter bg-clip-text text-transparent bg-gradient-to-r from-green-700 to-red-700" :to="{ name: 'home' }">Salfi Rishad</RouterLink>
 
             <nav class="md:space-x-6 hidden md:flex">
                 <RouterLink to="/">Home</RouterLink>
