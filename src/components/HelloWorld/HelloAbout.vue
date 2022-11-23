@@ -7,9 +7,14 @@
             </div>
             <div class="grid grid-flow-row md:grid-flow-col gap-6 place-content-center">
                 <img src="@/assets/bg-img/bg-img-2.jpg" alt="" class="rounded-3xl">
-                <div class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa exercitationem veniam accusamus, quia
-                    totam ducimus, deleniti omnis assumenda repellat laboriosam reiciendis rem corrupti iste tenetur
-                    enim doloremque nam est? Facilis.</div>
+                <div class="text-xl lg:text-2xl leading-relaxed lg:leading-loose">
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa exercitationem veniam accusamus,
+                        quia
+                        totam ducimus, deleniti omnis assumenda repellat laboriosam reiciendis rem corrupti iste tenetur
+                        enim doloremque nam est? Facilis.</div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa exercitationem veniam accusamus,
+                        quia totam ducimus, </div>
+                </div>
             </div>
         </div>
     </section>
