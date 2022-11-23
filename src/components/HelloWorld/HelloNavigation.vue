@@ -12,7 +12,7 @@ function hideMobileNav() {
 </script>
 
 <template>
-    <Header class="fixed w-screen top-0 p-6">
+    <Header class="fixed w-full top-0 p-6">
         <div class="container mx-auto flex items-center justify-between text-lg text-white font-semibold">
             <RouterLink class="font-Quick-starter bg-clip-text text-transparent bg-gradient-to-r from-green-700 to-red-700" :to="{ name: 'home' }">Salfi Rishad</RouterLink>
 
@@ -25,7 +25,7 @@ function hideMobileNav() {
                     Contact</RouterLink>
             </nav>
             <Icon icon="mdi:menu" class="md:hidden text-2xl font-bold" @click="showMobileNav()" />
-            <div id="mobilenav" class="hidden fixed top-0 right-0 p-6 bg-slate-600 h-screen w-96 z-10">
+            <div id="mobilenav" class="hidden fixed top-0 right-0 p-6 bg-slate-600 h-screen w-screen z-10">
                 <nav class="space-y-6 flex flex-col justify-items-end items-end">
                     <Icon icon="mdi:close" class="text-2xl font-bold" @click="hideMobileNav()" />
                     <RouterLink to="/" @click="hideMobileNav()">Home</RouterLink>
